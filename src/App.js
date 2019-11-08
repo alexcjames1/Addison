@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Landing, Driver } from './routes';
+import { Landing, Driver, About, Home, Pipe, Products, Tubing } from './routes';
 
 
 
@@ -13,6 +13,10 @@ function App() {
    <Router>
         <Route exact path="/" component={Landing} />
         <Route path="/driver" component={Driver} />
+        <Route path="/about" component={About} />
+        <Route path="/piping" component={Pipe} />
+        <Route path="/products" component={Products} />
+        <Route path="/tubing" component={Tubing} />
     </Router>
   );
 }
