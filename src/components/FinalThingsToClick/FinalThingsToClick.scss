@@ -1,0 +1,18 @@
+.finalThingsToClick .row {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .finalThingsToClick .row {
+        max-width: 100%;
+    }
+}
+.finalThingsToClick .card {
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .finalThingsToClick .card {
+        margin-bottom: 0px;
+    }
+}

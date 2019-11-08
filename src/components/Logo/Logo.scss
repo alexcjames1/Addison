@@ -1,0 +1,11 @@
+.header__logo {
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .header__logo {
+        margin-right: auto;
+    }
+}
+.header__logo img {
+    max-width: 130px;
+}

@@ -1,0 +1,117 @@
+@media (min-width: 768px) {
+
+    .navigation--main .nav__link:hover:before {
+        content: ' ';
+        position: absolute;
+        bottom: 0;
+        left: 15px; right: 15px;
+        height: 2px;
+        background: #FFF;
+    }
+}
+
+
+
+/********** NAV **********/
+
+.nav {
+    position: relative;
+}
+.nav__trigger {
+    display: block;
+}
+.nav__trigger--expanded {
+    display: none;
+}
+.nav__menuList {
+    display: none;
+}
+.nav--expanded .nav__menuList {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #fff;
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 200px;
+}
+
+
+
+/********** NAVIGATION **********/
+
+.navigation__menuList {
+    align-items: center;
+}
+.navigation__menuList > li {
+    padding: 0;
+}
+.navigation__menuList .nav__link {
+    color: var(--baseFontColor);
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 0.875em;
+    display: block;
+    padding: 1rem;
+}
+.navigation__menuTrigger .nav__link {
+    color: inherit;
+    font-size: 1.5rem;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .navigation__menuTrigger {
+        display: none;
+        background-color: transparent
+    }
+    .navigation__menuList {
+        display: flex;
+        background-color: transparent;
+    }
+    .navigation__menuList li {
+        display: inline;
+    }
+    .navigation__menuList .nav__link {
+        color: #fff;
+    }
+}
+.navigation--main .nav__link {position: relative;}
+
+////////BUTTON STYLES
+
+.button {
+    color: #565656;
+    font-size: 0.75rem;
+    font-weight: 300;
+    line-height: 0.875em;
+    display: inline-block;
+}
+.button:active {
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .button--link:hover {
+        text-decoration: underline;
+    }
+}
+.button--link:visited {
+    color: #1c3359;
+}
+.button--cta {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+@media (min-width: 768px) {
+    .button--cta {
+        font-weight: 900;
+        line-height: 1.125rem;
+        text-transform: uppercase;
+        background: #fff;
+        border-radius: 4px;
+    }
+}
+.button--lg {
+    padding: 1rem;
+}

@@ -1,0 +1,90 @@
+@import "reset";
+@import "theme";
+
+
+* {
+    box-sizing: border-box;
+}
+html {
+    --baseFontSize: 16px;
+}
+body {
+    --primaryColor: #00a5e4;
+    --secondaryColor: #6B7C93;
+    --tertiaryColor: #074180;
+    --fontFamily: "roboto";
+    --baseFontColor: #000;
+    overflow-x: hidden;
+}
+html {
+    font-size: var(--baseFontSize);
+}
+body {
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: var(--fontFamily);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.375em 0;
+    font-size: .875rem
+}
+@media (min-width: 768px) {
+    p {
+        margin: 0.625em 0;
+    }
+}
+.lead {
+    font-size: 1.1rem;
+}
+img {
+    max-width: 100%;
+}
+
+
+
+/********** HEADING DEFAULT **********/
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+/*    color: #000;*/
+    line-height: 1.3em;
+}
+h1, .h1 {
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+h2, .h2 {
+    font-size: 1.875rem;
+    font-weight: 900;
+}
+h3, .h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #6B7C93;
+}
+h4, .h4 {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+h5, .h5 {
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+h6, .h6 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+// bootstrap
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 10px;
+}
