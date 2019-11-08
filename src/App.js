@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Landing, Driver, About, Home, Pipe, Products, Tubing } from './routes';
+import { Landing, Driver, About, Pipe, Products, Tubing } from './routes';
 
 
 

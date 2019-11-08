@@ -1,6 +1,102 @@
-$primaryColor: #00a5e4;
-$secondaryColor: #6B7C93;
-$tertiaryColor: #074180;
+/////////MIXINS/////////
 
-$fontFamily: "roboto";
-$baseFontColor: #000;
+/////////ICONS/////////
+@mixin icon {
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    box-shadow: 1px 2px 25px 0 rgba(0,0,0,0.05);
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    margin-left: 18px;
+}
+/////////BORDER/////////
+@mixin border {
+    border-color: $borderColor;
+    border-radius: 15px;
+    border-width: .5px;
+    border-style: solid;
+    height: 250px;
+}
+@mixin borderHover {
+    background-color: #fff;
+    border-style: none;
+}
+
+/////////BACKGROUND COLORS/////////
+$primaryColor: #D5C0A3;
+$darkSection: #87b7bf;
+$lightSection: #fff;
+
+/////////FONT FAMILIES/////////
+$fontFamily: "Poppins";
+
+/////////FONT COLORS/////////
+$baseFontColor: #212121;
+$secondaryColor: #424242;
+$tertiaryColor: #337B9C;
+$darkBackground: #fff;
+
+/////////BUTTON COLORS/////////
+$lightButton: #fff;
+$darkButton: #347C9D;
+
+/////////FONT WEIGHTS/////////
+$normal: 400;
+$bold: 600;
+$black: 700;
+
+/////////FONT SIZES--DESKTOP/////////
+$heroBigFont: 3.75rem;
+$h1: 2.875rem;
+$h2: 2.125rem;
+$h3: 1.5rem;
+$h4: 1.375rem;
+$h5: 1.125rem;
+$h6: 1rem;
+
+$lead: 1.125rem;
+$body: 1rem;
+
+$subtitle: 0.875rem;
+
+/////////FONT SIZES--MOBILE/////////
+$heroBigFontMobile: 2.875rem;
+$h1mobile: 2.125rem;
+$h2mobile: 2rem;
+$h3mobile: 1.5rem;
+$h4mobile: 1.375rem;
+$h5mobile: 1rem;
+$h6mobile: 0.875rem;
+
+$leadMobile: 0.875rem;
+$bodyMobile: 0.75rem;
+
+$subtitleMobile: 0.75rem;
+
+/////////BOX SHADOW/////////
+$boxShadow: 0 5px 15px 0 rgba(0,0,0,0.07),
+            0 15px 35px 0 rgba(50,50,93,0.1);
+
+/////////BORDER COLOR/////////
+$borderColor: #d9d7d7;
+
+/////////BUTTON UNDERLINE/////////
+$underlineHover: underline;
+
+/////////MODAL COLOR STYLES/////////
+$helpColor: #F7BC14;
+
+//get-icon-color
+$selfColor: #84C5B4;
+
+//contribute-icon-color
+$contributeColor: #337B9C;
+
+//share-icon-color
+$shareColor: #374365;

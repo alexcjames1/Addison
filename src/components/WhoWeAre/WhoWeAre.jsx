@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import style from './ConvenienceIsPriority.scss';
+import style from './WhoWeAre.scss';
 import userConvenience from './images/user-convenience.jpg';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
@@ -20,12 +20,9 @@ export default class ConvenienceIsPriority extends Component {
                         <Col xs="12" sm="6">
                             <div className="media__content">
                                 <div className="media__header">
-                                    <h4 className="media__subTitle">
-                                        Time for what you want
-                                    </h4>
                                     <div className="media__title">
                                         <h2 className="h2 heading">
-                                            Convenience is priority
+                                            We are Addison Stl
                                         </h2>
                                     </div>
                                 </div>

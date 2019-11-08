@@ -18,6 +18,9 @@ export { default as EasyBeautifulInterface } from './EasyBeautifulInterface';
 
 export { default as UserHero } from './UserHero';
 export { default as UserFeatures } from './UserFeatures';
-export { default as ConvenienceIsPriority } from './ConvenienceIsPriority';
+export { default as WhoWeAre } from './WhoWeAre';
 export { default as HowSnowminerWorks } from './HowSnowminerWorks';
 export { default as EasyBeautifulInterface__User } from './EasyBeautifulInterface__User';
+export { default as Team } from './Team';
+export { default as FirstChoice } from './FirstChoice';
+export { default as Products } from './Products';
