@@ -13,6 +13,18 @@
     left: 0;
 
 }
+@media (min-width: 768px){
+    .transparent {
+        background: transparent;
+        margin-bottom: -4.375em;
+        z-index: 1;
+        background: #1f4a7c;
+        top:0;
+        bottom:0;
+        width: 200px;
+
+    }
+}
 .header.is-sticky {
     background-color: var(--tertiaryColor);
     transition: ease-in .2s background;

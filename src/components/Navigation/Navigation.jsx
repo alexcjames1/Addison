@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './Header__nav.module.scss';
+import style from './Navigation.module.scss';
 import {Link} from 'react-router-dom';
 // import script from './script.js';
 

@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import classy from '../../utils/classy';
 import style from './Products.scss';
 import {MediaComponent} from '../';
 import onTheGo from './images/on-the-go-icon.png';

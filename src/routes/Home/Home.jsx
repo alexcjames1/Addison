@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Heading, Header, AppWrapper, UserHero, FirstChoice, WhoWeAre, Team, Footer} from '../../components';
+import {Heading, Header, AppWrapper, UserHero, FirstChoice, WhoWeAre, PurchaseForm, Team, Footer} from '../../components';
 
 export default class Home extends Component {
     render() {
@@ -7,6 +7,8 @@ export default class Home extends Component {
           <AppWrapper>
             <UserHero />
             <FirstChoice />
+            <PurchaseForm />
+            <Team />
           </AppWrapper>
         );
     }

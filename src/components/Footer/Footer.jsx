@@ -36,7 +36,7 @@ export default class Footer extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col xs="12" sm="4" className>
+                        <Col xs="12" sm="4" className={style.media}>
                             <div className={style.socialMedia}>
                                 <ul className={style.socialMediaLinks}>
                                      <li className={style.twitter}>

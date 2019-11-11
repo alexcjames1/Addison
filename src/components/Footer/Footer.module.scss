@@ -47,8 +47,7 @@
     display: inline;
 }
 .socialMedia {
-    margin-left: auto;
-    right: 0;
+
 }
 .footer .footer__navigation {
     display: flex;
@@ -80,7 +79,7 @@
 .businessInformation {
     border-style: solid;
     border-width: 2px;
-    border-color: green;
+    border-color: #9de947;
     padding-left: 15px;
     border-top: none;
     border-right: none;
@@ -95,8 +94,13 @@
 }
 .finalThingsToClick {
     padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .legal {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.media {
+    text-align: right;
 }

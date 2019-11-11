@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './Header.module.scss';
-import { Logo, Header__nav } from '../../components';
+import { Logo, Navigation } from '../../components';
 
 export default class Header extends Component {
     render() {
@@ -11,14 +11,14 @@ export default class Header extends Component {
                     <div className={style.header__container}>
                         <div className={style.header__logo}>
                             <div className={style.logo}>
-                                <a href="#">
+                                <a href="google.com">
                                     <Logo />
                                 </a>
                             </div>
                         </div>
 
                         <div className={style.header__navigation}>
-                            <Header__nav />
+                            <Navigation />
                         </div>
                     </div>
 
