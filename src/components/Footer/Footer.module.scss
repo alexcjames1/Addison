@@ -69,14 +69,10 @@
 .footer .navigationSecondary .list a:hover {
     text-decoration: underline;
 }
-.formFiller {
-    width: 200px;
-    height: 200px;
-    background: white;
-}
+
 .map {
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
 }
 .logo {
     height: 30px;
@@ -85,12 +81,22 @@
     border-style: solid;
     border-width: 2px;
     border-color: green;
-    padding: 15px;
+    padding-left: 15px;
     border-top: none;
     border-right: none;
     border-bottom: none;
+    height: 100%;
 }
 .businessInformation a {
     color: #fff;
     display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.finalThingsToClick {
+    padding-top: 30px;
+}
+.legal {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

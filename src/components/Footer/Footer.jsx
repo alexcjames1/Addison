@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './Footer.module.scss';
-import {flexboxgrid} from '../../';
+import { ContactForm } from '../';
 import Logo from './images/addison-wordmark.png';
 import {Col, Row, Container } from 'react-bootstrap';
 
@@ -10,9 +10,10 @@ export default class Footer extends Component {
         return(
             <footer className={style.footer}>
                 <Container>
-                    <Row>
+                    <Row className={style.finalThingsToClick}>
                         <Col xs="12" sm="4">
                             <div className={style.formFiller}>
+                                <ContactForm />
                             </div>
                         </Col>
                         <Col xs="12" sm="4">
@@ -27,15 +28,15 @@ export default class Footer extends Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className={style.legal}>
                         <Col xs="12" sm="4">
-                            <div className={style.legal}>
+                            <div>
                                 <p className={style.copyright}>
                                      &copy; 2019 Addison Stl. All rights reserved.
                                 </p>
                             </div>
                         </Col>
-                        <Col xs="12" sm="4">
+                        <Col xs="12" sm="4" className>
                             <div className={style.socialMedia}>
                                 <ul className={style.socialMediaLinks}>
                                      <li className={style.twitter}>
