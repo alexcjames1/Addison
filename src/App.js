@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Landing, Driver, About, Pipe, Products, Tubing } from './routes';
+import { About, Pipe, Products, Tubing, Home } from './routes';
 
 
 
@@ -11,8 +11,7 @@ import './css/style.scss';
 function App() {
   return (
    <Router>
-        <Route exact path="/" component={Landing} />
-        <Route path="/driver" component={Driver} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/piping" component={Pipe} />
         <Route path="/products" component={Products} />

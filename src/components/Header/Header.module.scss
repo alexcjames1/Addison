@@ -2,28 +2,15 @@
     color: rgba(255,255,255,.7);
     background: var(--primaryColor);
     position: fixed;
-    width: 200px;
-    top: 0;
-    bottom: 0;
-
-}
-@media (min-width: 600px) {
-    .header {
-        color: rgba(255,255,255,.7);
-        background: var(--primaryColor);
-        position: fixed;
-        width: 200px;
-        top: 0;
-        bottom: 0;
-
-    }
 }
 
 .transparent {
     background: transparent;
     margin-bottom: -4.375em;
     z-index: 1;
-    background-color: #1f4a7c;
+    background: #1f4a7c;
+    right: 0;
+    left: 0;
 
 }
 .header.is-sticky {
@@ -41,6 +28,10 @@
     color: var(--primaryColor);
 }
 .header__container {
-    display: block;
+    display: flex;
     height: 70px;
+}
+.header__container {
+    justify-content: space-between;
+    align-items: center;
 }

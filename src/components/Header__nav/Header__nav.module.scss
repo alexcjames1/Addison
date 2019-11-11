@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 
-    .navigation--main .nav__link:hover:before {
+    .navigationMain .nav__link:hover:before {
         content: ' ';
         position: absolute;
         bottom: 0;
@@ -16,7 +16,6 @@
 
 .nav {
     position: relative;
-
 }
 .nav__trigger {
     display: block;
@@ -78,7 +77,7 @@
         color: #fff;
     }
 }
-.navigation--main .nav__link {position: relative;}
+.navigationMain .nav__link {position: relative;}
 
 ////////BUTTON STYLES
 
@@ -100,12 +99,12 @@
 .button--link:visited {
     color: #1c3359;
 }
-.button--cta {
+.buttonCTA {
     text-transform: uppercase;
     font-weight: 900;
 }
 @media (min-width: 768px) {
-    .button--cta {
+    .buttonCTA {
         font-weight: 900;
         line-height: 1.125rem;
         text-transform: uppercase;
@@ -113,6 +112,6 @@
         border-radius: 4px;
     }
 }
-.button--lg {
+.buttonLG {
     padding: 1rem;
 }

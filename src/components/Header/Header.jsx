@@ -3,7 +3,7 @@ import classy from '../../utils/classy';
 import style from './Header.module.scss';
 import { Logo, Header__nav } from '../../components';
 
-export default class Footer extends Component {
+export default class Header extends Component {
     render() {
         return(
             <header className={classy(style.header, style.transparent)}>
