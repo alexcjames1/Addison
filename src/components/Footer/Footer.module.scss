@@ -1,5 +1,6 @@
 .footer {
-    background-color: #182548;
+    background-color: #1f4a7c;
+    margin-left: 200px;
 }
 .footer .row {
     display: block;
@@ -54,19 +55,19 @@
     display: flex;
     padding: 1.5em 0 0.625em 0;
 }
-.footer .navigation--secondary {
+.footer .navigationSecondary {
     margin-left: auto;
 }
-.footer .navigation--secondary .list li {
+.footer .navigationSecondary .list li {
     display: inline;
     padding-left: 1.25rem;
 }
-.footer .navigation--secondary .list a {
+.footer .navigationSecondary .list a {
     color: #fff;
     text-decoration: none;
     font-family: sans-serif;
 }
-.footer .navigation--secondary .list a:hover {
+.footer .navigationSecondary .list a:hover {
     text-decoration: underline;
 }
 

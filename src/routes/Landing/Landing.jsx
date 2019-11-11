@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Heading, Header, AppWrapper, UserHero, Products, FirstChoice, UserFeatures, WhoWeAre, Team,  HowSnowminerWorks, EasyBeautifulInterface__User, FinalThingsToClick, Footer} from '../../components';
+import {Heading, Header, AppWrapper, UserHero, Products, FirstChoice, WhoWeAre, Team, Footer} from '../../components';
 
 export default class Landing extends Component {
     render() {
