@@ -1,32 +1,33 @@
 import React, {Component} from 'react';
+import classy from '../../utils/classy';
 import style from './FirstChoice.module.scss';
 import team from './images/team.jpg';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
-export default class ConvenienceIsPriority extends Component {
+export default class FirstChoice extends Component {
     render() {
         return(
-            <div className="convenienceIsPriority">
-                <Section className="section__convenienceIsPriority" kind="primary" size="normal">
+            <div className={style.FirstChoice}>
+                <Section className={style.section} kind="primary" size="normal">
                     <Row>
                         <Col xs="12" sm="6">
-                            <div className="media">
-                                <div className="media__figure">
+                            <div className={style.media}>
+                                <div className={style.media__figure}>
                                     <img src={team} alt="#" />
                                 </div>
                             </div>
                         </Col>
                         <Col xs="12" sm="6">
-                            <div className="media__content">
-                                <div className="media__header">
-                                    <div className="media__title">
-                                        <h2 className="h2 heading">
+                            <div className={style.media__content}>
+                                <div className={style.media__header}>
+                                    <div className={style.media__title}>
+                                        <h2 className={classy(style.h2, style.heading)}>
                                             Make Addison Steel Your First Choice
                                         </h2>
                                     </div>
                                 </div>
-                                <div className="media__body">
+                                <div className={style.media__body}>
                                     <p>
                                         Are you having trouble finding what you need? Ask us, we either have it or will
                                         get it for you. Addison Pipe & Tube Co. has been serving the Chicagoland area

@@ -116,5 +116,10 @@
     padding: 1rem;
 }
 .header__navigation {
-    display: block;
+    display: inline;
+}
+@media (min-width: 768px) {
+    .header__navigation {
+        display: block;
+    }
 }

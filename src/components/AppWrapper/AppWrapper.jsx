@@ -3,10 +3,10 @@ import { Header, Footer } from '../../components';
 
 export default class AppWrapper extends Component {
     render() {
-        const {children } = this.props;
+        const {children} = this.props;
 
         return(
-            <div className="app">
+            <div>
                 <Header />
                 {children}
                 <Footer />

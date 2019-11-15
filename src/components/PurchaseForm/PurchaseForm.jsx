@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './FirstChoice.module.scss';
+import style from './PurchaseForm.module.scss';
 import team from './images/team.jpg';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
-export default class ConvenienceIsPriority extends Component {
+export default class PurchaseForm extends Component {
     render() {
         return(
-            <Section className="section__convenienceIsPriority" kind="primary" size="small">
+            <Section className={style.section} kind="primary" size="small">
                 <div className={style.line}></div>
             <h2 className={style.sectionTitle}>Place Your Order Today!</h2>
             <div className={style.contactForm}>

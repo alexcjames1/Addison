@@ -1,7 +1,11 @@
 .header {
     color: rgba(255,255,255,.7);
     background: var(--primaryColor);
-    position: fixed;
+}
+@media (min-width: 768px) {
+    .header {
+        position: fixed;
+    }
 }
 
 .transparent {
@@ -33,14 +37,27 @@
 .header__logo img {
     max-width: 130px;
 }
-.logo {
-    text-align: center;
-    margin-top: 30px;
+@media (min-width: 768px) {
+    .logo {
+        text-align: center;
+        margin-top: 30px;
+    }
 }
-.header__navigation {
-    margin-left: 15px;
-    margin-right: 15px;
+@media (min-width: 768px) {
+    .header__navigation {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 .header .button--cta {
     color: var(--primaryColor);
+}
+.header__container {
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .header__container {
+        display: block;
+    }
 }
