@@ -12,7 +12,7 @@ export default class Footer extends Component {
                 <Container>
                     <Row className={style.finalThingsToClick}>
                         <Col xs="12" sm="4">
-                            <div className={style.formFiller}>
+                            <div className={style.form}>
                                 <ContactForm />
                             </div>
                         </Col>

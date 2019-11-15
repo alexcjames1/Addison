@@ -41,9 +41,9 @@
 
 /********** NAVIGATION **********/
 
-.navigation__menuList {
-    align-items: center;
-}
+// .navigation__menuList {
+//     align-items: center;
+// }
 .navigation__menuList > li {
     padding: 0;
 }
@@ -67,11 +67,11 @@
         background-color: transparent
     }
     .navigation__menuList {
-        display: flex;
+        display: block;
         background-color: transparent;
     }
     .navigation__menuList li {
-        display: inline;
+        display: block;
     }
     .navigation__menuList .nav__link {
         color: #fff;
@@ -116,5 +116,5 @@
     padding: 1rem;
 }
 .header__navigation {
-    display: block
+    display: block;
 }

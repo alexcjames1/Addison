@@ -42,8 +42,15 @@
 .contactForm {
     background: #fff;
     height: 350px;
-    width: 350px;
     border-radius: 4px;
+}
+@media (min-width: 768px) {
+    .contactForm {
+        background: #fff;
+        height: 350px;
+        width: 350px;
+        border-radius: 4px;
+    }
 }
 .submit {
     height: 300px;
