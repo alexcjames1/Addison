@@ -41,25 +41,40 @@
 }
 .contactForm {
     background: #fff;
-    height: 350px;
-    width: 350px;
+    width: 700px;
     border-radius: 4px;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07),
                 0 15px 35px 0 rgba(50,50,93,0.1);
 }
 .submit {
-    height: 300px;
-    width: 150px;
+    height: 35px;
+    width: 100px;
+    border-style: none;
+    background: #9de947;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .form {
     padding: 15px;
+    display: flex;
 }
-.line {
+.specifications {
+    display: flex;
+}
+.contact {
+    width: 50%;
     border-style: solid;
-    border-color: #9de947;
+    border-color: #1f4a7c;
     border-width: 2px;
-    width: 300px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 15px;
+}
+.productInfo {
+    width: 50%;
+    padding: 15px;
 }
 .sectionTitle {
     font-size: 30px;
