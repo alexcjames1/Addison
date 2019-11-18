@@ -1,5 +1,8 @@
+@import "../../css/theme.scss";
+
+//////////footer//////////
 .footer {
-    background-color: #1f4a7c;
+    background-color: $primaryColor;
 }
 .footer .row {
     display: block;
@@ -15,6 +18,13 @@
         margin-right: auto;
     }
 }
+.finalThingsToClick {
+    padding-top: $paddingMedium;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//////////legal//////////
 .footer .footer__legal {
     border: solid;
     border-width: 1px;
@@ -23,21 +33,20 @@
     border-right: none;
     border-bottom: none;
     display: flex;
-    padding: 1em 0;
 }
-.footer .footer__logo img {
-    width: 60%;
-}
-@media (min-width: 768px) {
-    .footer .footer__logo img {
-        width: 20%;
-    }
+.legal {
+    padding-top: $paddingStandard;
+    padding-bottom: $paddingStandard;
+    display: flex;
+    align-items: center;
 }
 .copyright {
-    font-family: sans-serif;
+    font-family: $fontFamily;
     font-size: 0.75rem;
     color:#fff;
 }
+
+//////////social media//////////
 .socialMedia li {
     display: inline;
 }
@@ -46,37 +55,25 @@
     padding: 0.375rem;
     display: inline;
 }
-.footer .footer__navigation {
-    display: flex;
-    padding: 1.5em 0 0.625em 0;
+.media {
+    text-align: right;
 }
-.footer .navigationSecondary {
-    margin-left: auto;
-}
-.footer .navigationSecondary .list li {
-    display: inline;
-    padding-left: 1.25rem;
-}
-.footer .navigationSecondary .list a {
-    color: #fff;
-    text-decoration: none;
-    font-family: sans-serif;
-}
-.footer .navigationSecondary .list a:hover {
-    text-decoration: underline;
-}
+
+//////////form//////////
 .form {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: $paddingStandard;
 }
+
+//////////map//////////
 .map {
     height: 350px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 15px;
+    padding: $paddingStandard;
 }
 @media (min-width: 768px) {
     .map {
@@ -84,14 +81,18 @@
         width: 380px;
     }
 }
+
+//////////logo//////////
 .logo {
     height: 30px;
 }
+
+//////////businessInformation//////////
 .businessInformation {
     border-style: solid;
     border-width: 2px;
     border-color: #9de947;
-    padding: 15px;
+    padding: $paddingStandard;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -116,30 +117,14 @@
     }
 }
 .businessInformation a {
-    color: #fff;
+    color: $tertiaryColor;
     display: block;
 }
 @media (min-width: 768px) {
     .businessInformation a {
-        color: #fff;
+        color: $tertiaryColor;
         display: block;
         margin-top: 5px;
         margin-bottom: 5px;
     }
-}
-.finalThingsToClick {
-    padding-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.legal {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.media {
-    text-align: right;
-}
-.legal {
-    display: flex;
-    align-items: center;
 }

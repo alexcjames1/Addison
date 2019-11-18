@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import style from './Logo.module.scss';
-import SnowminerLogo from './images/snowminer-logo.png';
+import AddisonLogo from './images/addisonside.png';
 
 export default class Logo extends Component {
     render() {
         return(
             <div className={style.logo}>
-                <img src={SnowminerLogo} alt="" />
+                <img src={AddisonLogo} alt="" />
             </div>
         );
     }

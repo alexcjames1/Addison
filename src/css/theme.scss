@@ -31,9 +31,11 @@
 /////////BACKGROUND COLORS/////////
 $primaryColor: #1f4a7c;
 $secondaryColor: #9de947;
+$tertiaryColor: #fff;
+$accentColor: #aeb9cc;
 
 /////////FONT FAMILIES/////////
-$fontFamily: "Poppins";
+$fontFamily: "roboto";
 
 /////////FONT COLORS/////////
 $baseFontColor: #1f4a7c;
@@ -85,3 +87,16 @@ $borderColor: #d9d7d7;
 
 /////////BUTTON UNDERLINE/////////
 $underlineHover: underline;
+
+/////////PADDING/////////
+$paddingStandard: 15px;
+$paddingMedium: 30px;
+$paddingLarge: 45px;
+
+/////////MARGINS/////////
+$marginStandard: 15px;
+$marginMedium: 30px;
+$marginLarge: 45px;
+
+/////////BORDER RADIUS/////////
+$borderRadius: 4px;

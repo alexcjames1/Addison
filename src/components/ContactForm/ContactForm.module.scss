@@ -1,64 +1,50 @@
-.section__convenienceIsPriority .row {
-    align-items: center;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-@media (min-width: 768px) {
-    .section__convenienceIsPriority .row {
-        align-items: center;
-        max-width: 100%;
-    }
-}
-.section__convenienceIsPriority .media__subTitle {
-    color: var(--primaryColor);
-}
-.section__convenienceIsPriority .media__figure {
-    text-align: center;
-}
-.section__convenienceIsPriority .media__figure img {
-    margin-bottom: 1.25em;
-    width: 100%;
-}
-@media (min-width: 768px) {
-    .section__convenienceIsPriority .media__figure img {
-        margin-bottom: 0;
-    }
-}
+@import "../../css/theme.scss";
+
+//////////input//////////
 .input {
     display: block;
-    padding: 15px;
+    padding: $paddingStandard;
     width: 100%;
     height: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background: #aeb9cc;
+    margin-top: $marginStandard;
+    margin-bottom: $marginStandard;
+    background: $accentColor;
     border: none;
-    border-radius: 4px;
+    border-radius: $borderRadius;
 }
+
+//////////text area//////////
 .comment {
     height: 100px;
 }
+
+//////////form boundaries//////////
 .contactForm {
-    background: #fff;
+    background: $tertiaryColor;
     height: 350px;
-    border-radius: 4px;
+    border-radius: $borderRadius;
+}
+
+//////////form inside//////////
+.form {
+    padding: $paddingStandard;
 }
 @media (min-width: 768px) {
     .contactForm {
-        background: #fff;
+        background: $tertiaryColor;
         height: 350px;
         width: 350px;
-        border-radius: 4px;
+        border-radius: $borderRadius;
     }
 }
+
+//////////submit button//////////
 .submit {
     height: 300px;
     width: 150px;
 }
+
+//////////form title//////////
 .formTitle {
     text-align: center;
-}
-.form {
-    padding: 15px;
 }

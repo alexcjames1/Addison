@@ -1,6 +1,8 @@
+@import "../../css/theme.scss";
+
+//////////header//////////
 .header {
-    color: rgba(255,255,255,.7);
-    background: #1f4a7c;
+    background: $primaryColor;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -13,20 +15,14 @@
     z-index: 1;
 
 }
-.header.is-sticky {
-    background-color: var(--tertiaryColor);
-    transition: ease-in .2s background;
-}
+
+//////////container//////////
 .section--onTransparentHeader .container {
     padding-top: 70px;
 }
-
-.header__logo img {
-    max-width: 130px;
-}
-.header .button--cta {
-    color: var(--primaryColor);
-}
+// .header .button--cta {
+//     color: var(--primaryColor);
+// }
 .header__container {
     display: flex;
     height: 70px;
@@ -35,6 +31,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+//////////navigation//////////
 .navigation {
     position: relative;
     right: 0;

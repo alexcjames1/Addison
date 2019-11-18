@@ -1,3 +1,6 @@
+@import "../../css/theme.scss";
+
+//////////row//////////
 .section .row {
     align-items: center;
     max-width: 80%;
@@ -8,20 +11,5 @@
     .section .row {
         align-items: center;
         max-width: 100%;
-    }
-}
-.section .media__subTitle {
-    color: var(--primaryColor);
-}
-.section .media__figure {
-    text-align: center;
-}
-.section .media__figure img {
-    margin-bottom: 1.25em;
-    width: 100%;
-}
-@media (min-width: 768px) {
-    .section .media__figure img {
-        margin-bottom: 0;
     }
 }
