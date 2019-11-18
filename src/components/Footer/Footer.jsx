@@ -28,14 +28,14 @@ export default class Footer extends Component {
                         </Col>
                     </Row>
                     <Row className={style.legal}>
-                        <Col xs="12" sm="4">
+                        <Col xs="6">
                             <div>
                                 <p className={style.copyright}>
                                      &copy; 2019 Addison Stl. All rights reserved.
                                 </p>
                             </div>
                         </Col>
-                        <Col xs="12" sm="4" className={style.media}>
+                        <Col xs="6" className={style.media}>
                             <div className={style.socialMedia}>
                                 <ul className={style.socialMediaLinks}>
                                      <li className={style.twitter}>

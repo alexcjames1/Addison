@@ -65,7 +65,12 @@
 .footer .navigationSecondary .list a:hover {
     text-decoration: underline;
 }
-
+.form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
 .map {
     height: 350px;
     width: 90%;
@@ -75,8 +80,8 @@
 }
 @media (min-width: 768px) {
     .map {
-        height: 350px;
-        width: 350px;
+        height: 380px;
+        width: 380px;
     }
 }
 .logo {
@@ -86,14 +91,29 @@
     border-style: solid;
     border-width: 2px;
     border-color: #9de947;
-    padding-left: 15px;
-    border-top: none;
+    padding: 15px;
+    border-left: none;
     border-right: none;
     border-bottom: none;
     height: 100%;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+@media (min-width: 768px) {
+    .businessInformation {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #9de947;
+        padding-left: 15px;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        height: 100%;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .businessInformation a {
     color: #fff;
@@ -119,9 +139,7 @@
 .media {
     text-align: right;
 }
-.form {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
+.legal {
+    display: flex;
+    align-items: center;
 }

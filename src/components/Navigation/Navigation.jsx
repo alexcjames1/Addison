@@ -86,11 +86,6 @@ export default class Header__nav extends Component {
                         <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
                             <Link to={"/driver"} className={style.nav__link}>Contact</Link>
                         </li>
-                        <li>
-                            <a className={classy(style.button, style.buttonCTA, style.buttonLG)} href="#">
-                                Contact Us
-                            </a>
-                        </li>
                     </ul>
                 </nav>
 
