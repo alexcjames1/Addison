@@ -69,13 +69,22 @@ export default class Header__nav extends Component {
                     </div>
                     <ul className={classy(style.navigation__menuList, style.nav__menuList)}>
                         <li className={style.nav__menuItem}>
-                            <Link to={"/"} className={style.nav__link}>Schedule</Link>
+                            <Link to={"/"} className={style.nav__link}>Home</Link>
                         </li>
                         <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
-                            <Link to={"/driver"} className={style.nav__link}>Drive</Link>
+                            <Link to={"/driver"} className={style.nav__link}>Products &amp; Services</Link>
                         </li>
-                        <li className={style.nav__menuItem}>
-                            <Link to={"#"} className={style.nav__link}>Help</Link>
+                        <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
+                            <Link to={"/driver"} className={style.nav__link}>Pipe Chart</Link>
+                        </li>
+                        <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
+                            <Link to={"/driver"} className={style.nav__link}>Tubing Chart</Link>
+                        </li>
+                        <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
+                            <Link to={"/driver"} className={style.nav__link}>About Us</Link>
+                        </li>
+                        <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
+                            <Link to={"/driver"} className={style.nav__link}>Contact</Link>
                         </li>
                         <li>
                             <a className={classy(style.button, style.buttonCTA, style.buttonLG)} href="#">

@@ -7,12 +7,12 @@ import {Heading} from '../';
 
 export default class Card extends Component {
     render() {
-        const {image, title, paragraph, column, textAlign, button } = this.props;
+        const {image, title, paragraph, button } = this.props;
 
         return(
             <div className={ classy(style.media, style.card) }>
                 <div className={style.card__figure}>
-                    <img src={image}/>
+                    <img src={image} alt=""/>
                 </div>
                 <div className={style.card__content}>
                     {title ? <Heading tag="h4" className={style.card__heading}>{title}</Heading> : ''}

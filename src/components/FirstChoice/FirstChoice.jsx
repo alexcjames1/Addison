@@ -12,13 +12,6 @@ export default class FirstChoice extends Component {
                 <Section className={style.section} kind="primary" size="normal">
                     <Row>
                         <Col xs="12" sm="6">
-                            <div className={style.media}>
-                                <div className={style.media__figure}>
-                                    <img src={team} alt="#" />
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xs="12" sm="6">
                             <div className={style.media__content}>
                                 <div className={style.media__header}>
                                     <div className={style.media__title}>
@@ -40,6 +33,13 @@ export default class FirstChoice extends Component {
                                         We offer local delivery to you or to your job site with our fleet
                                         of delivery trucks. Out of town deliveries are arranged by our dispatch.
                                     </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs="12" sm="6">
+                            <div className={style.media}>
+                                <div className={style.media__figure}>
+                                    <img src={team} alt="#" />
                                 </div>
                             </div>
                         </Col>

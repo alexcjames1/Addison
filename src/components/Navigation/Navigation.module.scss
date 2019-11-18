@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 
-    .navigationMain .nav__link:hover:before {
+    .navigation--main .nav__link:hover:before {
         content: ' ';
         position: absolute;
         bottom: 0;
@@ -41,9 +41,9 @@
 
 /********** NAVIGATION **********/
 
-// .navigation__menuList {
-//     align-items: center;
-// }
+.navigation__menuList {
+    align-items: center;
+}
 .navigation__menuList > li {
     padding: 0;
 }
@@ -67,17 +67,17 @@
         background-color: transparent
     }
     .navigation__menuList {
-        display: block;
+        display: flex;
         background-color: transparent;
     }
     .navigation__menuList li {
-        display: block;
+        display: inline;
     }
     .navigation__menuList .nav__link {
         color: #fff;
     }
 }
-.navigationMain .nav__link {position: relative;}
+.navigation--main .nav__link {position: relative;}
 
 ////////BUTTON STYLES
 
@@ -99,12 +99,12 @@
 .button--link:visited {
     color: #1c3359;
 }
-.buttonCTA {
+.button--cta {
     text-transform: uppercase;
     font-weight: 900;
 }
 @media (min-width: 768px) {
-    .buttonCTA {
+    .button--cta {
         font-weight: 900;
         line-height: 1.125rem;
         text-transform: uppercase;
@@ -112,14 +112,6 @@
         border-radius: 4px;
     }
 }
-.buttonLG {
+.button--lg {
     padding: 1rem;
-}
-.header__navigation {
-    display: inline;
-}
-@media (min-width: 768px) {
-    .header__navigation {
-        display: block;
-    }
 }

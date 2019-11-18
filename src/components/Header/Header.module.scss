@@ -1,30 +1,17 @@
 .header {
     color: rgba(255,255,255,.7);
-    background: var(--primaryColor);
-}
-@media (min-width: 768px) {
-    .header {
-        position: fixed;
-    }
+    background: #1f4a7c;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
-.transparent {
+.header.header--transparent {
     background: transparent;
     margin-bottom: -4.375em;
+    position: relative;
     z-index: 1;
-    background: #1f4a7c;
-}
-@media (min-width: 768px){
-    .transparent {
-        background: transparent;
-        margin-bottom: -4.375em;
-        z-index: 1;
-        background: #1f4a7c;
-        top:0;
-        bottom:0;
-        width: 200px;
 
-    }
 }
 .header.is-sticky {
     background-color: var(--tertiaryColor);
@@ -37,27 +24,18 @@
 .header__logo img {
     max-width: 130px;
 }
-@media (min-width: 768px) {
-    .logo {
-        text-align: center;
-        margin-top: 30px;
-    }
-}
-@media (min-width: 768px) {
-    .header__navigation {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-}
 .header .button--cta {
     color: var(--primaryColor);
 }
 .header__container {
     display: flex;
+    height: 70px;
+}
+.header__container {
+    justify-content: space-between;
     align-items: center;
 }
-@media (min-width: 768px) {
-    .header__container {
-        display: block;
-    }
+.navigation {
+    position: relative;
+    right: 0;
 }

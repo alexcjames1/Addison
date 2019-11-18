@@ -41,7 +41,9 @@
 }
 .contactForm {
     background: #fff;
-    width: 700px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07),
                 0 15px 35px 0 rgba(50,50,93,0.1);
@@ -80,4 +82,10 @@
     font-size: 30px;
     color: #1f4a7c;
     margin: 15px;
+}
+.line {
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9de947;
 }

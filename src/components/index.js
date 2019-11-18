@@ -11,7 +11,6 @@ export { default as Card } from './Card';
 
 export { default as UserHero } from './UserHero';
 export { default as WhoWeAre } from './WhoWeAre';
-export { default as Team } from './Team';
 export { default as FirstChoice } from './FirstChoice';
 export { default as Products } from './Products';
 export { default as ContactForm } from './ContactForm';

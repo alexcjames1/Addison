@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import classy from '../../utils/classy';
 import style from './Footer.module.scss';
 import { ContactForm } from '../';
 import Logo from './images/addison-wordmark.png';
