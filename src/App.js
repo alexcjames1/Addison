@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { About, Pipe, Products, Tubing, Home } from './routes';
+import { About, Piping, Products, Tubing, Home } from './routes';
 
 
 
@@ -13,7 +13,7 @@ function App() {
    <Router>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/piping" component={Pipe} />
+        <Route path="/piping" component={Piping} />
         <Route path="/products" component={Products} />
         <Route path="/tubing" component={Tubing} />
     </Router>
