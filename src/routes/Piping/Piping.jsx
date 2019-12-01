@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {AppWrapper} from '../../components';
+import {AppWrapper, PipeChart} from '../../components';
 
 export default class Piping extends Component {
     render() {
         return (
           <AppWrapper>
-
+              <PipeChart />
           </AppWrapper>
         );
     }

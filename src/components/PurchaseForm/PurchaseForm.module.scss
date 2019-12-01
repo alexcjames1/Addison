@@ -6,13 +6,17 @@
     padding: 15px;
     width: 100%;
     height: 40px;
-    margin-top: 15px;
     margin-bottom: 15px;
     background: $accentColor;
     border: none;
     border-radius: $borderRadius;
 }
-
+.sectionTitle {
+    margin-bottom: 15px;
+}
+.formTitle {
+    margin-bottom: 15px;
+}
 //////////text area//////////
 .comment {
     height: 100px;
@@ -37,6 +41,20 @@
     background: #9de947;
     border-radius: 4px;
     text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+@media (min-width: 768px) {
+    .submit {
+        height: 35px;
+        width: 100px;
+        border-style: none;
+        background: #9de947;
+        border-radius: 4px;
+        text-align: center;
+        margin-left: 180px;
+        margin-right: 180px;
+    }
 }
 
 //////////form inside//////////
@@ -67,6 +85,12 @@
     font-size: 30px;
     color: $primaryColor;
     margin: 15px;
+}
+.size {
+    margin-right: 5px;
+}
+.length {
+    margin-right: 5px;
 }
 
 //////////line//////////

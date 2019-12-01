@@ -5,7 +5,7 @@
     display: block;
     padding: $paddingStandard;
     width: 100%;
-    height: 40px;
+    height: 35px;
     margin-top: $marginStandard;
     margin-bottom: $marginStandard;
     background: $accentColor;
@@ -15,13 +15,12 @@
 
 //////////text area//////////
 .comment {
-    height: 100px;
+    height: 75px;
 }
 
 //////////form boundaries//////////
 .contactForm {
     background: $tertiaryColor;
-    height: 350px;
     border-radius: $borderRadius;
 }
 
@@ -40,11 +39,23 @@
 
 //////////submit button//////////
 .submit {
-    height: 300px;
-    width: 150px;
+    height: 35px;
+    width: 100px;
+    border-style: none;
+    background: #9de947;
+    border-radius: 4px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+@media (min-width: 768px) {
+    .submit {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
 }
 
 //////////form title//////////
 .formTitle {
     text-align: center;
+    padding-top: 15px;
 }
