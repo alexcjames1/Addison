@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './WhoWeAre.module.scss';
-import userConvenience from './images/user-convenience.jpg';
+import worker from './images/factory-worker.jpg';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
@@ -14,7 +14,7 @@ export default class WhoWeAre extends Component {
                         <Col xs="12" sm="6">
                             <div className={style.media}>
                                 <div className={style.media__figure}>
-                                    <img src={userConvenience} alt="#" />
+                                    <img src={worker} alt="#" />
                                 </div>
                             </div>
                         </Col>
