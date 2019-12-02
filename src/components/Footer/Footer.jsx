@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import style from './Footer.module.scss';
 import { ContactForm } from '../';
-import Logo from './images/addison-wordmark.png';
+import Logo from './images/wordmark-addison.png';
 import {Col, Row, Container } from 'react-bootstrap';
 
 export default class Footer extends Component {
@@ -39,7 +39,7 @@ export default class Footer extends Component {
                             <div className={style.socialMedia}>
                                 <ul className={style.socialMediaLinks}>
                                      <li className={style.twitter}>
-                                         <a href="#"><i className="mdi mdi-twitter"></i></a>
+                                         <a href="https://twitter.com/" target="_blank"><i className="mdi mdi-twitter"></i></a>
                                      </li>
                                      <li className={style.facebook}>
                                          <a href="https://www.facebook.com/addisonpipeandtube/" target="_blank"><i className="mdi mdi-facebook"></i></a>
