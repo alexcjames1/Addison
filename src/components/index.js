@@ -17,3 +17,4 @@ export { default as ContactForm } from './ContactForm';
 export { default as PurchaseForm } from './PurchaseForm';
 export { default as PipeChart } from './PipeChart';
 export { default as TubingChart } from './TubingChart';
+export { default as Services } from './Services';

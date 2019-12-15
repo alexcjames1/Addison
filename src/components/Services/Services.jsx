@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import style from './TubingChart.module.scss';
+import style from './Services.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
-export default class TubingChart extends Component {
+export default class Services extends Component {
     render() {
         return(
             <div>
