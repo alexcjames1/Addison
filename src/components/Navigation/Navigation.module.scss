@@ -50,7 +50,7 @@
 .navigation__menuList > li {
     padding: 0;
 }
-.navigation__menuList .nav__link {
+.navigation__menuList .nav__link, .contactButton {
     color: $tertiaryColor;
     font-family: $fontFamily;
     font-size: 0.875rem;

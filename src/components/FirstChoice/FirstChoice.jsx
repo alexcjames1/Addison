@@ -16,22 +16,31 @@ export default class FirstChoice extends Component {
                                 <div className={style.media__header}>
                                     <div className={style.media__title}>
                                         <h2 className={classy(style.h2, style.heading)}>
-                                            Make Addison Steel Your First Choice
+                                            Addison Stl is your BEST choice for all your steel needs
                                         </h2>
                                     </div>
                                 </div>
                                 <div className={style.media__body}>
                                     <p>
-                                        Are you having trouble finding what you need? Ask us, we either have it or will
-                                        get it for you. Addison Pipe & Tube Co. has been serving the Chicagoland area
-                                        and the Midwest for over fifty years.
-                                        Customer service is our number one priority. There is a reason why we list this
-                                        first. Our most valued asset is you, the customer. We cut to size, including miter
-                                        and production cutting. We offer threading, bending and priming of material. Mill
-                                        test reports and/or certification of material are also available, if requested.
-                                        We offer same day service.
-                                        We offer local delivery to you or to your job site with our fleet
-                                        of delivery trucks. Out of town deliveries are arranged by our dispatch.
+                                        Addison Stl is a family owned company that has been servicing the Chicagoland area and Midwest
+                                        for the past 60 years. Customer service is our number one priority. There is a reason why we list
+                                        this first.  Our most valued asset is You, the Customer. We partner with you to guarantee your steel
+                                        needs are met. We offer stock material as well as saw and torch cutting to size, including miter and
+                                        production cutting. We pride ourselves in our value-added services of primer painting, galvanizing,
+                                        blasting and final finish coating of all materials, threading, bending, mid-welding and plate attachments.
+                                        Mill test reports and/or certification of materials are available at your request. We offer same day
+                                        service as well as JIT stocking of your company’s specific products. Our company is located in the heart of
+                                        Chicago, providing for the fastest and most cost-effective delivery services. Whether it is from our fleet
+                                        of trucks locally to your shop or job site or nationwide delivery by our partners of outside trucking
+                                        companies, Addison Stl has you covered.
+                                    </p>
+                                    <p>
+                                        Our extensive inventory includes over 6,000 tons of steel pipe and tubing, plates, beams, channels,
+                                        angles, flats as well as aluminum, hot and cold rolled steel, and stainless steel. This inventory
+                                        guarantees that you will receive what you need in the fastest time possible.
+                                    </p>
+                                    <p>
+                                        Our staff at Addison Stl is committed to supplying all your steel requirements. 
                                     </p>
                                 </div>
                             </div>

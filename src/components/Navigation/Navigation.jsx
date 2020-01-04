@@ -81,7 +81,7 @@ export default class Header__nav extends Component {
                             <Link to={"/about"} className={style.nav__link}>About Us</Link>
                         </li>
                         <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
-                            <Link to={".contact_link"} className={style.nav__link}>Contact</Link>
+                            <a href="mailto:sales@addisonstl.com" className={style.contactButton}>Contact</a>
                         </li>
                     </ul>
                 </nav>
