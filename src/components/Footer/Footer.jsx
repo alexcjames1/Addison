@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import style from './Footer.module.scss';
 import { ContactForm } from '../';
 import Logo from './images/wordmark-addison.png';
+import naspd from './images/naspd.png';
 import {Col, Row, Container } from 'react-bootstrap';
 
 export default class Footer extends Component {
@@ -39,10 +40,13 @@ export default class Footer extends Component {
                             <div className={style.socialMedia}>
                                 <ul className={style.socialMediaLinks}>
                                      <li className={style.twitter}>
-                                         <a href="https://twitter.com/" target="_blank"><i className="mdi mdi-twitter"></i></a>
+                                         <a href="https://www.linkedin.com/company/addison-pipe-&-tube-co/about/" target="_blank"><i className="mdi mdi-linkedin"></i></a>
                                      </li>
                                      <li className={style.facebook}>
                                          <a href="https://www.facebook.com/addisonpipeandtube/" target="_blank"><i className="mdi mdi-facebook"></i></a>
+                                     </li>
+                                     <li className={style.naspd}>
+                                         <img src={naspd} alt="" className={style.naspd_logo}/>
                                      </li>
                                 </ul>
                             </div>

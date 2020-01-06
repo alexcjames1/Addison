@@ -1,16 +1,39 @@
 import React, {Component} from 'react';
 import style from './Services.module.scss';
+import {MediaComponent} from '../';
+import products from './images/products.png';
+import saw from './images/services-saw.JPG';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
+import {Link} from 'react-router-dom';
 
 export default class Services extends Component {
     render() {
         return(
-            <div>
-                <Section size="normal">
-                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vReATMWm-44HwGIC7JQpvNk_g0ABMXmWfuH2kz7rhUftaPDPQVjpLjhhHYaMHpibRncUE-CX5XcqSqo/pubhtml?widget=true&amp;headers=false"></iframe>
-                    <a href="#">Download Chart</a>
-                </Section>
+            <div className={style.products}>
+                <div className={style.products__content}>
+
+                    <Section className={style.section} kind="primary" size="small">
+                        <Row>
+                            <Col xs="12" sm="4">
+                                <Link to={"/piping"} className={style.pipeChart}>
+                                    <MediaComponent column textAlign="center" image={saw} title="Saw Cutting"/>
+                                </Link>
+                            </Col>
+                            <Col xs="12" sm="4">
+                                <Link to={"/tubing"} className={style.tubeChart}>
+                                    <MediaComponent column textAlign="center" image={saw} title="Services Example"/>
+                                </Link>
+                            </Col>
+                            <Col xs="12" sm="4">
+                                <Link to={"/tubing"} className={style.tubeChart}>
+                                    <MediaComponent column textAlign="center" image={saw} title="Services Example"/>
+                                </Link>
+                            </Col>
+                        </Row>
+                    </Section>
+
+                </div>
             </div>
         );
     }

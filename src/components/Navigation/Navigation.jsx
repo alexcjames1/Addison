@@ -78,6 +78,9 @@ export default class Header__nav extends Component {
                             <Link to={"/services"} className={style.nav__link}>Services</Link>
                         </li>
                         <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
+                            <Link to={"/projects"} className={style.nav__link}>Projects</Link>
+                        </li>
+                        <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>
                             <Link to={"/about"} className={style.nav__link}>About Us</Link>
                         </li>
                         <li className={classy(style.nav__menuItem, style.nav__menuItemActive)}>

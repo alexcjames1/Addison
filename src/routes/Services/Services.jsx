@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import {AppWrapper, PipeChart, PurchaseForm} from '../../components';
+import { AppWrapper, UserHero, Services, PurchaseForm } from '../../components';
 
-export default class Piping extends Component {
+export default class Service extends Component {
     render() {
         return (
           <AppWrapper>
-              <PipeChart />
-              <PurchaseForm />
+             <UserHero />
+             <Services />
+             <PurchaseForm />
           </AppWrapper>
         );
     }
