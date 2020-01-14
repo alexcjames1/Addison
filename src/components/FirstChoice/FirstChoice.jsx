@@ -37,10 +37,10 @@ export default class FirstChoice extends Component {
                                     <p>
                                         Our extensive inventory includes over 6,000 tons of steel pipe and tubing, plates, beams, channels,
                                         angles, flats as well as aluminum, hot and cold rolled steel, and stainless steel. This inventory
-                                        guarantees that you will receive what you need in the fastest time possible.
+                                        guarantees that you will receive what you need in the fastest <br></br>time possible.
                                     </p>
                                     <p>
-                                        Our staff at Addison Stl is committed to supplying all your steel requirements. 
+                                        Our staff at Addison Stl is committed to supplying all your steel requirements.
                                     </p>
                                 </div>
                             </div>
