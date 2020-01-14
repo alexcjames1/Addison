@@ -1,3 +1,16 @@
+.header{
+    font-size: 120px;
+    text-align: center;
+    color: #fff;
+    opacity: .7;
+    text-transform: uppercase;
+    animation: fadein 2.5s;
+    padding-top: 150px;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .7; }
+}
 .userHero {
     background:url("./images/steel-hero.jpg") no-repeat;
     background-size: cover;
