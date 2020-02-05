@@ -1,0 +1,35 @@
+.header {
+    color: rgba(255,255,255,.7);
+    background: var(--primaryColor);
+    position: absolute;
+}
+
+.header.header--transparent {
+    background: transparent;
+    margin-bottom: -4.375em;
+    position: relative;
+    z-index: 1;
+
+}
+.header.is-sticky {
+    background-color: var(--tertiaryColor);
+    transition: ease-in .2s background;
+}
+.section--onTransparentHeader .container {
+    padding-top: 70px;
+}
+
+.header__logo img {
+    max-width: 130px;
+}
+.header .button--cta {
+    color: var(--primaryColor);
+}
+.header__container {
+    display: flex;
+    height: 70px;
+}
+.header__container {
+    justify-content: space-between;
+    align-items: center;
+}

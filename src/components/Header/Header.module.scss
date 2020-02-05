@@ -16,13 +16,6 @@
 
 }
 
-//////////container//////////
-.section--onTransparentHeader .container {
-    padding-top: 70px;
-}
-// .header .button--cta {
-//     color: var(--primaryColor);
-// }
 .header__container {
     display: flex;
     height: 70px;
@@ -36,4 +29,7 @@
 .navigation {
     position: relative;
     right: 0;
+}
+.logo {
+    padding: 20px;
 }

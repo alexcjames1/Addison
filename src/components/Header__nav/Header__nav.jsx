@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-
-import style from './Header.scss';
-import { Logo, Header__nav } from '../../components';
+import style from './Header__nav.scss';
+import {Link} from 'react-router-dom';
+// import script from './script.js';
 
 var delay = ( function() {
     var timer = 0;
@@ -89,29 +89,36 @@ window.addEventListener('DOMContentLoaded', (event) => {
    headerSticky();
 });
 
-
-
-export default class Header extends Component {
+export default class Header__nav extends Component {
     render() {
         return(
-            <header className="header header--transparent">
-                <div className="container">
-                    <div className="header__container">
-                        <div className="header__logo">
-                            <div className="logo">
-                                <a href="#">
-                                    <Logo />
-                                </a>
-                            </div>
-                        </div>
+            <div className="header__navigation">
 
-                        <div className="header__navigation">
-                            <Header__nav />
-                        </div>
+                <nav className="navigation navigation--main nav">
+                    <div className="navigation__menuTrigger nav__trigger">
+                        <a onClick={toggleCanvas} className="nav__link" href="#">
+                            <i className="icon icon--menu-toggle mdi mdi-menu"></i>
+                        </a>
                     </div>
+                    <ul className="navigation__menuList nav__menuList">
+                        <li className="nav__menuItem">
+                            <Link to={"/"} className="nav__link">Schedule</Link>
+                        </li>
+                        <li className="nav__menuItem nav__menuItem--active">
+                            <Link to={"/driver"} className="nav__link">Drive</Link>
+                        </li>
+                        <li className="nav__menuItem">
+                            <Link to={"#"} className="nav__link">Help</Link>
+                        </li>
+                        <li>
+                            <a className="button button--cta button--lg" href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
 
-                </div>
-            </header>
+            </div>
         );
     }
 }

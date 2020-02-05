@@ -1,9 +1,3 @@
-import React, {Component} from 'react';
-import classy from '../../utils/classy';
-
-import style from './Header.scss';
-import { Logo, Header__nav } from '../../components';
-
 var delay = ( function() {
     var timer = 0;
     return function(callback, ms) {
@@ -22,7 +16,7 @@ function offset(el) {
 
 //CODE FOR THE HAMBURGER MENU
 
-var toggleCanvas = function() {
+(function() {
 
     // when a click is made, close menus
     window.addEventListener('click', function(e) {
@@ -64,7 +58,7 @@ var toggleCanvas = function() {
         }
     });
 
-};
+}());
 
 
 
@@ -88,30 +82,3 @@ var headerSticky = function() {
 window.addEventListener('DOMContentLoaded', (event) => {
    headerSticky();
 });
-
-
-
-export default class Header extends Component {
-    render() {
-        return(
-            <header className="header header--transparent">
-                <div className="container">
-                    <div className="header__container">
-                        <div className="header__logo">
-                            <div className="logo">
-                                <a href="#">
-                                    <Logo />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="header__navigation">
-                            <Header__nav />
-                        </div>
-                    </div>
-
-                </div>
-            </header>
-        );
-    }
-}
